@@ -17,6 +17,10 @@ def output_array(array)
     puts element
   end
 end
-
+def return_string_array(array)
+  array.each do |element|
+    element.to_s 
+  end
+end
   
   
