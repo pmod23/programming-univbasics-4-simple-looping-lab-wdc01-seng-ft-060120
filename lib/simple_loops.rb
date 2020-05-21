@@ -14,7 +14,9 @@ def loop_mesage_n_times(string,n)
 end
 def output_array(array)
   array.each do |element|
-    
+    puts element
   end
+end
+
   
   
